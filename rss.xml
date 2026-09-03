@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Jun 的成长日志</title>
+    <link>https://gitfox-enter.github.io/jun-log</link>
+    <description>一个普通学生的成长记录：学习、折腾、思考，用输出倒逼输入。</description>
+    <language>zh-CN</language>
+    <generator>GitPress</generator>
+    <item>
+      <title>你好,世界</title>
+      <link>https://gitfox-enter.github.io/jun-log/posts/hello-world/</link>
+      <guid>https://gitfox-enter.github.io/jun-log/posts/hello-world/</guid>
+      <pubDate>Thu, 03 Sep 2026 03:37:43 GMT</pubDate>
+      <description>我在 GitPress 上的第一篇文章。</description>
+    </item>
+  </channel>
+</rss>

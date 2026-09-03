@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gitfox-enter.github.io/jun-log/sitemap.xml
