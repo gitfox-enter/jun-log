@@ -1,0 +1,137 @@
+<!DOCTYPE html><html lang="zh-CN" style="--accent: #5b5bd6"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>我用 Obsidian + AI 搭了一套&quot;自维护&quot;的笔记系统 · Jun 的成长日志</title><meta name="description" content="收藏的文章再也不吃灰了。秘诀？让 AI 当图书管理员，我只负责写。"><meta name="generator" content="GitPress"><link rel="canonical" href="https://gitfox-enter.github.io/jun-log/posts/obsidian-ai-self-maintaining-notes/"><meta property="og:type" content="article"><meta property="og:title" content="我用 Obsidian + AI 搭了一套&#34;自维护&#34;的笔记系统 · Jun 的成长日志"><meta property="og:description" content="收藏的文章再也不吃灰了。秘诀？让 AI 当图书管理员，我只负责写。"><meta property="og:url" content="https://gitfox-enter.github.io/jun-log/posts/obsidian-ai-self-maintaining-notes/"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="我用 Obsidian + AI 搭了一套&#34;自维护&#34;的笔记系统 · Jun 的成长日志"><meta name="twitter:description" content="收藏的文章再也不吃灰了。秘诀？让 AI 当图书管理员，我只负责写。"><meta property="article:published_time" content="2026-09-07T00:15:25.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"我用 Obsidian + AI 搭了一套\"自维护\"的笔记系统","description":"收藏的文章再也不吃灰了。秘诀？让 AI 当图书管理员，我只负责写。","datePublished":"2026-09-07T00:15:25.000Z","url":"https://gitfox-enter.github.io/jun-log/posts/obsidian-ai-self-maintaining-notes/","author":{"@type":"Person","name":"gitfox-enter"}}</script><link rel="alternate" type="application/rss+xml" title="Jun 的成长日志" href="/jun-log/rss.xml"><script>(function(){const defaultAppearance = "system";
+
+      // Runs before paint so there is no light->dark flash. Priority: the
+      // visitor's own saved choice, then this site's configured default,
+      // then their OS preference.
+      (function () {
+        var STORAGE_KEY = "quill-appearance";
+        var mode = localStorage.getItem(STORAGE_KEY) || defaultAppearance;
+        if (mode === "system") {
+          mode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = mode;
+      })();
+    })();</script><link rel="stylesheet" href="/jun-log/_astro/_page_.C6rhuqU_.css"><script id="gitpress-build-check">(function(){var BUILD_ID="0474c1b7c4f0";var META="/jun-log/gitpress-build.json";var SW="/jun-log/sw.js";var SCOPE="/jun-log/";try{if("serviceWorker"in navigator)navigator.serviceWorker.register(SW,{scope:SCOPE});}catch(e){}fetch(META+(META.indexOf("?")>=0?"&":"?")+"t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null;}).then(function(meta){if(!meta||!meta.id||meta.id===BUILD_ID)return;var key="gp-bust:"+meta.id;try{if(sessionStorage.getItem(key))return;sessionStorage.setItem(key,"1");}catch(e){}if(typeof caches!=="undefined"){caches.keys().then(function(keys){return Promise.all(keys.map(function(k){return caches.delete(k);}));}).finally(function(){location.reload();});}else{location.reload();}}).catch(function(){});})();</script></head> <body> <header class="site-header" data-pagefind-ignore> <div class="site-brand">  <div class="site-brand-copy">  <p class="site-title"> <a href="/jun-log/">Jun 的成长日志</a> </p> </div> </div> <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark appearance"> <svg viewBox="0 0 20 20" fill="currentColor" class="icon-sun"><path d="M10 4a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1zm0 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm7 3a1 1 0 1 1 0 2h-1a1 1 0 1 1 0-2h1zM4 11a1 1 0 1 1 0 2H3a1 1 0 1 1 0-2h1zm11.66-5.66a1 1 0 0 1 0 1.42l-.7.7a1 1 0 1 1-1.42-1.42l.7-.7a1 1 0 0 1 1.42 0zM6.46 14.46a1 1 0 0 1 0 1.42l-.7.7a1 1 0 0 1-1.42-1.42l.7-.7a1 1 0 0 1 1.42 0zM10 15a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1zm5.66-.54a1 1 0 0 1 1.42 0l.7.7a1 1 0 0 1-1.42 1.42l-.7-.7a1 1 0 0 1 0-1.42zM5.76 5.76a1 1 0 0 1-1.42 0l-.7-.7A1 1 0 1 1 5.06 3.64l.7.7a1 1 0 0 1 0 1.42z"></path></svg> <svg viewBox="0 0 20 20" fill="currentColor" class="icon-moon"><path d="M17.3 13.6A7.5 7.5 0 0 1 7.1 4.2a1 1 0 0 0-1.2-1.3A9.5 9.5 0 1 0 18.6 14.8a1 1 0 0 0-1.3-1.2z"></path></svg> </button> <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox"> <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu"> <span></span><span></span><span></span> </label> <p class="site-tagline">一个普通学生的成长记录：学习、折腾、思考，用输出倒逼输入。</p> <nav class="site-nav"> <a href="/jun-log/"> 首页 </a><a href="/jun-log/categories/tinkering/"> 折腾记录 </a><a href="/jun-log/about/"> 关于 </a><a href="/jun-log/archive/"> 归档 </a><a href="/jun-log/search/"> 搜索 </a> </nav> </header> <main class="site-main">  <article> <div data-pagefind-body> <header class="article-header"> <p class="post-meta"> 2026年9月7日 08:15:25 <span> · 3 分钟阅读</span>  </p> <h1>我用 Obsidian + AI 搭了一套&quot;自维护&quot;的笔记系统</h1> </header>  <div class="prose"> <p>**不夸张地说，这套系统现在会自己整理自己。**</p>
+<h2 id="为什么折腾这个">为什么折腾这个？</h2>
+<p>专升本在读，平时要记的东西不少——考研资料、项目笔记、收藏的文章、灵感碎片。用 Obsidian 记笔记两个月，遇到了所有知识管理爱好者都会遇到的问题：</p>
+<ul>
+<li>笔记越攒越多，找不到</li>
+<li>每条笔记格式不统一，有的有标签有的没有</li>
+<li>收藏了文章就忘，从来不回头看</li>
+<li>花大量时间整理，而不是写内容</li>
+</ul>
+<p>7月底，我决定彻底解决这个问题：不是靠自己整理，而是**教 AI 帮我整理**。</p>
+<h2 id="核心思路给-ai-写一份员工手册">核心思路：给 AI 写一份”员工手册”</h2>
+<p>我参考了 Claude Code 的项目规范思路，在 Obsidian 库里放了一个 `CLAUDE.md` 文件——这是 AI 的”员工手册”，每次 AI 进入这个笔记库时自动读取。</p>
+<p>手册里写了什么？不是”请帮我整理笔记”这种空话，而是**非常具体的行为边界**：</p>
+<p>**绝对不能做的：**</p>
+<p>```</p>
+<ul>
+<li>删除任何已有笔记内容</li>
+<li>未经确认直接写入笔记</li>
+<li>创建新的一级文件夹</li>
+<li>批量重命名超过 5 个文件</li>
+<li>修改 .obsidian 配置</li>
+</ul>
+<p>```</p>
+<p>**可以自由做的：**</p>
+<p>```</p>
+<ul>
+<li>补 frontmatter（title、summary、type）</li>
+<li>建立 [[双向链接]]</li>
+<li>生成 index.md 导航</li>
+<li>分析结构、给出整理建议</li>
+</ul>
+<p>```</p>
+<p>**写入铁律：**</p>
+<p>```</p>
+<ol>
+<li>任何写入 → 先写到 workspace 副本</li>
+<li>展示给用户</li>
+<li>确认后 → 才复制到 vault</li>
+<li>不偷偷操作仓库文件</li>
+</ol>
+<p>```</p>
+<p>一句话：AI 是助手，不是主人。规则自然生长——每次 AI 犯错就加一条规则，不追求一次写完美。</p>
+<h2 id="实际效果从手动整理到自动织网">实际效果：从”手动整理”到”自动织网”</h2>
+<p>手册写完之后，效果立竿见影。举几个真实场景：</p>
+<h3 id="场景-1收藏文章自动归档">场景 1：收藏文章自动归档</h3>
+<p>以前收藏一篇知乎文章，就是复制粘贴进去，然后永远忘掉。现在 AI 自动执行”织网流程”：</p>
+<ol>
+<li>**补 frontmatter** — 自动写标题、一句话摘要、类型标签</li>
+<li>**关联旧文** — 在库里搜索相似主题，自动插入 `[[双向链接]]`</li>
+<li>**分类归档** — 按内容归入对应文件夹，命名遵守统一格式</li>
+<li>**Git 同步** — 自动提交并推送到 GitHub 私有仓库</li>
+</ol>
+<p>整个过程我不需要说”帮我整理一下”，AI 默认执行，我只需要确认。</p>
+<h3 id="场景-2批量补全元数据">场景 2：批量补全元数据</h3>
+<p>库里积累了几十条笔记，很多没有摘要、没有类型标签。手动补？太痛苦。让 AI 批量扫描，一次性补了 12 处 `type` 标记、3 条 wiki 知识条目，还优化了索引。</p>
+<h3 id="场景-3断链修复">场景 3：断链修复</h3>
+<p>Obsidian 的 `[[双向链接]]` 很容易断——改了文件名、移动了位置，链接就失效。AI 扫描全库，自动修复断链，更新索引。</p>
+<h2 id="这套系统教我的三件事">这套系统教我的三件事</h2>
+<p>折腾完回头看，最大的收获不是”笔记变整齐了”，而是三个可迁移的思维：</p>
+<p>**1. 规则先行，而不是边做边想。**</p>
+<p>CLAUDE.md 本质上是把”我希望 AI 怎么工作”显性化。这个思路放到任何协作中都成立——先定边界，再谈执行。</p>
+<p>**2. 信任但要验证。**</p>
+<p>AI 能力很强，但”能做什么”和”该做什么”之间必须有硬边界。写入前必须确认、不能碰配置文件、不能删内容——这些红线让 AI 协作变得可控。</p>
+<p>**3. 好系统是”生长”出来的。**</p>
+<p>CLAUDE.md 不是一次写完的。从 8月3日初版到现在，更新了 6 次——AI 犯一次错，加一条规则。现在它比第一版厚了三倍，但每一条都有用。</p>
+<h2 id="工具清单">工具清单</h2>
+<p>| 工具 | 用途 |</p>
+<p>|------|------|</p>
+<p>| Obsidian | 笔记客户端 |</p>
+<p>| GitHub 私有仓库 | 备份 + 多端同步 |</p>
+<p>| Obsidian Git 插件 | 自动提交推送 |</p>
+<p>| CLAUDE.md | AI 行为规范 |</p>
+<p>| Operit (AI助手) | 执行整理任务 |</p>
+<p>| PARA 文件夹体系 | 7 个一级目录 + Wiki 知识层 |</p>
+<hr>
+<p>*下一篇预告：我的爬虫灾备方案——服务器倒闭后，怎么用一句暗号让 GitHub Actions 自动接管。*</p>
+<p>```</p>
+<p> </p> </div> </div> <nav class="tag-list"> <a href="/jun-log/tags/Obsidian/">#Obsidian</a><a href="/jun-log/tags/AI/">#AI</a><a href="/jun-log/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/">#知识管理</a><a href="/jun-log/tags/%E7%AC%94%E8%AE%B0%E4%BD%93%E7%B3%BB/">#笔记体系</a> </nav> <div id="gitpress-comments" class="comments"> <script>(function(){const giscus = {"repo":"gitfox-enter/jun-log","repoId":"R_kgDOUMrnFw","category":"Announcements","categoryId":"DIC_kwDOUMrnF84DExJj","lang":"zh-CN","theme":"light"};
+
+            (function () {
+              var theme =
+                document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+              var script = document.createElement("script");
+              script.src = "https://giscus.app/client.js";
+              script.async = true;
+              script.crossOrigin = "anonymous";
+              script.setAttribute("data-repo", giscus.repo);
+              script.setAttribute("data-repo-id", giscus.repoId);
+              script.setAttribute("data-category", giscus.category);
+              script.setAttribute("data-category-id", giscus.categoryId);
+              script.setAttribute("data-mapping", "pathname");
+              script.setAttribute("data-strict", "0");
+              script.setAttribute("data-reactions-enabled", "1");
+              script.setAttribute("data-emit-metadata", "0");
+              script.setAttribute("data-input-position", "bottom");
+              script.setAttribute("data-theme", theme);
+              script.setAttribute("data-lang", giscus.lang);
+              script.setAttribute("data-loading", "lazy");
+              var host = document.getElementById("gitpress-comments");
+              if (host) host.appendChild(script);
+            })();
+          })();</script> </div> </article>  </main> <footer class="site-footer" data-pagefind-ignore> <ul class="site-footer-list"> <li> <span>© 2026 Jun 的成长日志</span> </li><li> <a href="https://gitpress.net" target="_blank" rel="generator">  由 GitPress 驱动 </a> </li><li> <a href="https://github.com/tap6/gitpress" target="_blank" rel="noopener noreferrer">  主题 Quill </a> </li><li> <a href="/jun-log/rss.xml">  RSS </a> </li> </ul> </footer> <script>
+      (function () {
+        var STORAGE_KEY = "quill-appearance";
+        function syncGiscus(mode) {
+          var frame = document.querySelector("iframe.giscus-frame");
+          if (!frame || !frame.contentWindow) return;
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme: mode === "dark" ? "dark" : "light" } } },
+            "https://giscus.app",
+          );
+        }
+        var btn = document.getElementById("theme-toggle");
+        if (btn) {
+          btn.addEventListener("click", function () {
+            var current = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+            var next = current === "dark" ? "light" : "dark";
+            document.documentElement.dataset.theme = next;
+            localStorage.setItem(STORAGE_KEY, next);
+            syncGiscus(next);
+          });
+        }
+      })();
+    </script> </body> </html>
