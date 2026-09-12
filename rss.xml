@@ -7,6 +7,13 @@
     <language>zh-CN</language>
     <generator>GitPress</generator>
     <item>
+      <title>旧手机 + Nextcloud：我把吃灰安卓机改造成了私有云盘</title>
+      <link>https://gitfox-enter.github.io/jun-log/posts/old-phone-nextcloud-nas/</link>
+      <guid>https://gitfox-enter.github.io/jun-log/posts/old-phone-nextcloud-nas/</guid>
+      <pubDate>Sat, 12 Sep 2026 01:32:43 GMT</pubDate>
+      <description>从 GitHub 教程出发，用 proot + LAMP 在旧安卓手机上部署 Nextcloud 34，记录下载加速、稀疏文件陷阱、端口冲突与服务可恢复性验证的全过程。</description>
+    </item>
+    <item>
       <title>报名英语四级，开始备考</title>
       <link>https://gitfox-enter.github.io/jun-log/posts/registered-cet4-start-prepare/</link>
       <guid>https://gitfox-enter.github.io/jun-log/posts/registered-cet4-start-prepare/</guid>
