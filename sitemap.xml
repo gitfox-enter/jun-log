@@ -2,9 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://gitfox-enter.github.io/jun-log/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/about/</loc></url>
-  <url><loc>https://gitfox-enter.github.io/jun-log/archive/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/categories/digital-life/</loc></url>
-  <url><loc>https://gitfox-enter.github.io/jun-log/categories/methodology/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/categories/notes/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/categories/tinkering/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/posts/blog-fresh-start/</loc></url>
@@ -14,11 +12,11 @@
   <url><loc>https://gitfox-enter.github.io/jun-log/posts/registered-cet4-start-prepare/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/posts/self-hosted-nav-panel/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/search/</loc></url>
-  <url><loc>https://gitfox-enter.github.io/jun-log/tags/AI/</loc></url>
-  <url><loc>https://gitfox-enter.github.io/jun-log/tags/NAS/</loc></url>
-  <url><loc>https://gitfox-enter.github.io/jun-log/tags/Nextcloud/</loc></url>
-  <url><loc>https://gitfox-enter.github.io/jun-log/tags/Obsidian/</loc></url>
+  <url><loc>https://gitfox-enter.github.io/jun-log/tags/ai/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/tags/hello/</loc></url>
+  <url><loc>https://gitfox-enter.github.io/jun-log/tags/nas/</loc></url>
+  <url><loc>https://gitfox-enter.github.io/jun-log/tags/nextcloud/</loc></url>
+  <url><loc>https://gitfox-enter.github.io/jun-log/tags/obsidian/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/tags/云服务器/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/tags/写作/</loc></url>
   <url><loc>https://gitfox-enter.github.io/jun-log/tags/动手实践/</loc></url>
