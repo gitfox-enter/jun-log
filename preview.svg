@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background: warm off-white -->
+  <rect width="800" height="600" fill="#faf8f5"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="64" fill="#fff"/>
+  <text x="48" y="40" font-family="Georgia, serif" font-size="20" fill="#5c4a3a" font-weight="bold">Jun Log</text>
+  <text x="680" y="40" font-family="Georgia, serif" font-size="14" fill="#8a6d3b">Search</text>
+  <line x1="0" y1="64" x2="800" y2="64" stroke="#e8e0d4" stroke-width="1"/>
+
+  <!-- Hero section -->
+  <text x="400" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#3d3326" font-weight="bold">进一寸有一寸的欢喜</text>
+  <text x="400" y="210" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#8a6d3b" font-style="italic">Every Inch Forward, A Joy of Its Own</text>
+  <text x="400" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#6b5d4f">学酒店管理让我相信，做好每件小事就是最大的成长。</text>
+
+  <!-- Divider -->
+  <line x1="300" y1="290" x2="500" y2="290" stroke="#c9b896" stroke-width="1.5"/>
+
+  <!-- Welcome -->
+  <text x="400" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#3d3326">Hi, I'm Jun</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#8a6d3b">Hotel management undergrad · CET-4 candidate · Open-source tinkerer</text>
+
+  <!-- Post list preview -->
+  <rect x="120" y="420" width="560" height="1" fill="#e8e0d4"/>
+  <text x="120" y="450" font-family="Georgia, serif" font-size="14" fill="#3d3326" font-weight="bold">Sample Post Title</text>
+  <text x="120" y="470" font-family="Georgia, serif" font-size="11" fill="#8a6d3b">Sep 14, 2026 — by Jun in Growth</text>
+  <rect x="120" y="490" width="560" height="1" fill="#e8e0d4"/>
+  <text x="120" y="520" font-family="Georgia, serif" font-size="14" fill="#3d3326" font-weight="bold">Another Story of Progress</text>
+  <text x="120" y="540" font-family="Georgia, serif" font-size="11" fill="#8a6d3b">Sep 10, 2026 — by Jun in Tools</text>
+  <rect x="120" y="560" width="560" height="1" fill="#e8e0d4"/>
+
+  <!-- Accent dot -->
+  <circle cx="400" cy="280" r="3" fill="#8a6d3b"/>
+</svg>
