@@ -1,34 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-  <!-- Background: warm off-white -->
-  <rect width="800" height="600" fill="#faf8f5"/>
+  <!-- Background: Ann's base color #f9f9f9 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
 
   <!-- Header bar -->
-  <rect x="0" y="0" width="800" height="64" fill="#fff"/>
-  <text x="48" y="40" font-family="Georgia, serif" font-size="20" fill="#5c4a3a" font-weight="bold">Jun Log</text>
-  <text x="680" y="40" font-family="Georgia, serif" font-size="14" fill="#8a6d3b">Search</text>
-  <line x1="0" y1="64" x2="800" y2="64" stroke="#e8e0d4" stroke-width="1"/>
+  <rect x="0" y="0" width="800" height="52" fill="#f9f9f9"/>
+  <text x="48" y="33" font-family="Inter, sans-serif" font-size="14" fill="#111" font-weight="600" letter-spacing="0.05em">JUN LOG</text>
+  <text x="720" y="33" font-family="Inter, sans-serif" font-size="12" fill="#636363" letter-spacing="0.06em">ABOUT</text>
+  <line x1="0" y1="52" x2="800" y2="52" stroke="#e0ddd5" stroke-width="1"/>
 
-  <!-- Hero section -->
-  <text x="400" y="180" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#3d3326" font-weight="bold">进一寸有一寸的欢喜</text>
-  <text x="400" y="210" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#8a6d3b" font-style="italic">Every Inch Forward, A Joy of Its Own</text>
-  <text x="400" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#6b5d4f">学酒店管理让我相信，做好每件小事就是最大的成长。</text>
+  <!-- Hero section: centered, big whitespace, small avatar, pill button -->
+  <!-- Avatar circle -->
+  <circle cx="400" cy="130" r="40" fill="#cfcabe" stroke="#cfcabe" stroke-width="3"/>
+  <circle cx="400" cy="130" r="34" fill="#c2a990"/>
+  <text x="400" y="138" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#f9f9f9">J</text>
+
+  <!-- Hero title -->
+  <text x="400" y="215" text-anchor="middle" font-family="Cardo, Georgia, serif" font-size="28" fill="#111">进一寸有一寸的欢喜</text>
+  <text x="400" y="240" text-anchor="middle" font-family="Cardo, Georgia, serif" font-size="15" fill="#A4A4A4" font-style="italic">Every Inch Forward, A Joy of Its Own</text>
+  <text x="400" y="270" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#636363">学酒店管理让我相信，做好每件小事就是最大的成长。</text>
+  <text x="400" y="288" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#A4A4A4" font-style="italic">Hotel management taught me that mastering the details is where real growth happens.</text>
+
+  <!-- Pill button -->
+  <rect x="335" y="310" width="130" height="34" rx="17" fill="#cfcabe"/>
+  <text x="400" y="331" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#111" font-weight="500" letter-spacing="0.05em">READ ARTICLES</text>
 
   <!-- Divider -->
-  <line x1="300" y1="290" x2="500" y2="290" stroke="#c9b896" stroke-width="1.5"/>
+  <line x1="0" y1="380" x2="800" y2="380" stroke="#e0ddd5" stroke-width="1"/>
 
   <!-- Welcome -->
-  <text x="400" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#3d3326">Hi, I'm Jun</text>
-  <text x="400" y="375" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#8a6d3b">Hotel management undergrad · CET-4 candidate · Open-source tinkerer</text>
+  <text x="400" y="420" text-anchor="middle" font-family="Cardo, Georgia, serif" font-size="20" fill="#111">Hi, I'm Jun</text>
+  <text x="400" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#636363">I'm an undergraduate student of Hotel Management, navigating the path from</text>
+  <text x="400" y="466" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#636363">vocational college to a bachelor's degree. This blog is my ledger of the climb.</text>
 
-  <!-- Post list preview -->
-  <rect x="120" y="420" width="560" height="1" fill="#e8e0d4"/>
-  <text x="120" y="450" font-family="Georgia, serif" font-size="14" fill="#3d3326" font-weight="bold">Sample Post Title</text>
-  <text x="120" y="470" font-family="Georgia, serif" font-size="11" fill="#8a6d3b">Sep 14, 2026 — by Jun in Growth</text>
-  <rect x="120" y="490" width="560" height="1" fill="#e8e0d4"/>
-  <text x="120" y="520" font-family="Georgia, serif" font-size="14" fill="#3d3326" font-weight="bold">Another Story of Progress</text>
-  <text x="120" y="540" font-family="Georgia, serif" font-size="11" fill="#8a6d3b">Sep 10, 2026 — by Jun in Tools</text>
-  <rect x="120" y="560" width="560" height="1" fill="#e8e0d4"/>
+  <!-- Divider -->
+  <line x1="0" y1="490" x2="800" y2="490" stroke="#e0ddd5" stroke-width="1"/>
 
-  <!-- Accent dot -->
-  <circle cx="400" cy="280" r="3" fill="#8a6d3b"/>
+  <!-- Article list: two-column layout (title left, meta right) -->
+  <!-- Post 1 -->
+  <text x="120" y="525" font-family="Cardo, Georgia, serif" font-size="16" fill="#111">Sample Post Title</text>
+  <text x="440" y="525" font-family="Inter, sans-serif" font-size="11" fill="#A4A4A4">Sep 14, 2026 — by Jun</text>
+  <text x="440" y="543" font-family="Inter, sans-serif" font-size="11" fill="#636363">A short excerpt of the post content...</text>
+  <text x="440" y="560" font-family="Inter, sans-serif" font-size="11" fill="#636363">in Growth</text>
+  <line x1="120" y1="575" x2="680" y2="575" stroke="#e0ddd5" stroke-width="1"/>
 </svg>
